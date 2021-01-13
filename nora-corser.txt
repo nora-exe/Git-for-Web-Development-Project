@@ -1,0 +1,66 @@
+codepen link: https://codepen.io/nora-exe/full/ExgdoGE
+
+Review Questions:
+        1. What is Semantic HTML? defines a term but doesn't render (for informational/developer/SEO use, not consumer use)
+        2. What is HTML used for? organizing and defining content
+        3. What is an attribute and where do we put it? Attributes define an element further, and go in the initial tag with the element.
+        4. What is the h1 tag used for? How many times should I use it on a page? H1 is the highest priority header and for SEO etc reasons should only be used once!
+        5. Name two tags that have required attributes: img requires src and alt attributes. A usually has an href attribute even if it's just an in-page anchor.
+        6. What do we put in the head of our HTML document? DOCTYPE, HTML, HEAD, and HEADER.
+        7. What is an id? An ID is more specific than a CLASS and there should only be 1 tag of that ID.
+        8. What elements can I add an id to? Everything probably. Except big ones like doctype and stuff idk.
+        9. How many times can I use the same id on a page? Don't do that.
+        10. What is a class? Applies to multiple elements.
+        11. What elements can I add a class to? Same rules as class maybe?
+        12. How many times can I use the same class on a page? As often as reasonable.
+        13. How do I get my link to open in a new tab? a blank target will do that for ya.
+        14. What is the alt attribute in the image tag used for? This is text that will show in case the image doesn't show for a variety of reasons (accessibility, missing img src, etc)
+        15. How do I reference an id? #idName
+        16. What is the difference between a section and a div? AFAIK section is mostly semantic and organizational, like defining sections in text, and div is the original section used to group elements and format them. 
+        17. What is CSS used for? stylization outside (but along with) your HTML file.
+        18. How to we select an element? elementName {modifications}
+        19. What is the difference between a class and an id? - Give me an example of when I might use each one. class is broad, id is unique. classes can apply multiple modifiers to different elements, ID modifies specific elements.
+        20. How do we select classes in CSS? .className {modifier}
+        21. How do we select a p element with a single class of “human””? p .human {}
+        22. What is a parent child selector? When would this be useful? parent > child {} can be helpful for certain chunks of content instead of going element by element.
+        23. How do you select all links within a div with the class of sidebar? div > a > .sidebar?
+        24. What is a pseudo selector? Addresses a specific part of a specific element according to certain traits or states like hover or first line of a paragraph etc.
+        25. What do we use the change the spacing between lines? line-height.
+        26. What do we use to change the spacing between letters? font-kerning
+        27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? transform
+        28. How do I add a 1px border around my div that is dotted and black? div {border:1px dotted black;}
+        29. How do I select everything on the page? * for all elements or body for page.
+        30. How do I write a comment in CSS? /* comment */
+        31. How do I find out what file I am in, when I am using the command line? pwd
+        32. Using the command line - how do I see a list of files/folders in my current folder? ls
+        33. How do I remove a file via the command line? Why do I have to be careful with this? rm; theres no warnings so be careful.
+        34. Why should I use version control? so if you mess up you can return to or review a past version.
+        35. How often should I commit to github? often?
+        36. What is the command we would use to push our repo up to github? git push -u origin destinationname
+        37. Walk me through Lambda's git flow.
+
+        Steps
+fork
+copy clone link
+git clone <link> in GitBash
+cd into the new repo
+git checkout -b nora-corser to create your own branch!
+open project in VSCode with code .
+work on the file :slightly_smiling_face:
+ADD git add . to add the changes & ready them for committing
+COMMIT git commit -m Your helpful commit message here to commit the changes with your comment on what changes you added
+PUSH git push -u origin nora-corser
+Now that the changes are on github you can submit a PR (Pull Request)
+Go back to your forked Project repo on github (make sure you are on YOUR FORKED copy NOT the original Lambda one)
+Click on the Branch:master button on the left side
+Click name in dropdown; click New pull request
+On the PR page, make sure to click the dropdown button that says base repository and CHANGE it to be your FORKED REPO instead of the original Lambda repo
+Submit the PR link to Canvas github.com/username/repo-name/pull/1
+
+Stretch Questions
+
+        1. What is the difference between an inline element and a block element?
+        2. What happens when an element is positioned absolutely? 
+        3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
